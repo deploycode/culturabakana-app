@@ -1,0 +1,17 @@
+[19-Mar-2016 23:51:51 Etc/GMT] PHP Warning:  move_uploaded_file(../slider/primera.jpg): failed to open stream: No such file or directory in /home/cultucwd/public_html/php/subir_galeria.php on line 17
+[19-Mar-2016 23:51:51 Etc/GMT] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpbxyar9' to '../slider/primera.jpg' in /home/cultucwd/public_html/php/subir_galeria.php on line 17
+[19-Mar-2016 23:51:51 Etc/GMT] PHP Warning:  move_uploaded_file(../slider/segunda.jpg): failed to open stream: No such file or directory in /home/cultucwd/public_html/php/subir_galeria.php on line 18
+[19-Mar-2016 23:51:51 Etc/GMT] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php3NA2V6' to '../slider/segunda.jpg' in /home/cultucwd/public_html/php/subir_galeria.php on line 18
+[19-Mar-2016 23:51:51 Etc/GMT] PHP Warning:  move_uploaded_file(../slider/tercera.jpg): failed to open stream: No such file or directory in /home/cultucwd/public_html/php/subir_galeria.php on line 19
+[19-Mar-2016 23:51:51 Etc/GMT] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpQWR7q4' to '../slider/tercera.jpg' in /home/cultucwd/public_html/php/subir_galeria.php on line 19
+[19-Mar-2016 23:51:51 Etc/GMT] PHP Warning:  move_uploaded_file(../slider/cuarta.jpg): failed to open stream: No such file or directory in /home/cultucwd/public_html/php/subir_galeria.php on line 20
+[19-Mar-2016 23:51:51 Etc/GMT] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpXdnpW1' to '../slider/cuarta.jpg' in /home/cultucwd/public_html/php/subir_galeria.php on line 20
+[19-Mar-2016 23:51:51 Etc/GMT] PHP Warning:  move_uploaded_file(../slider/quinta.jpg): failed to open stream: No such file or directory in /home/cultucwd/public_html/php/subir_galeria.php on line 21
+[19-Mar-2016 23:51:51 Etc/GMT] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpxiWQrZ' to '../slider/quinta.jpg' in /home/cultucwd/public_html/php/subir_galeria.php on line 21
+[16-Apr-2016 14:47:52 Etc/GMT] PHP Notice:  Undefined variable: email_from in /home/cultucwd/public_html/php/enviar_email.php on line 24
+[16-Apr-2016 14:47:52 Etc/GMT] PHP Notice:  Undefined variable: email_from in /home/cultucwd/public_html/php/enviar_email.php on line 25
+[18-Apr-2016 16:26:06 Etc/GMT] PHP Notice:  Undefined variable: first_name in /home/cultucwd/public_html/php/enviar_email.php on line 58
+[20-Apr-2016 05:57:24 Etc/GMT] PHP Notice:  Undefined variable: first_name in /home/cultucwd/public_html/php/enviar_email.php on line 58
+[20-Apr-2016 06:01:02 Etc/GMT] PHP Notice:  Undefined variable: first_name in /home/cultucwd/public_html/php/enviar_email.php on line 58
+[20-Apr-2016 06:02:06 Etc/GMT] PHP Notice:  Undefined variable: first_name in /home/cultucwd/public_html/php/enviar_email.php on line 58
+[20-Apr-2016 06:02:16 Etc/GMT] PHP Notice:  Undefined variable: first_name in /home/cultucwd/public_html/php/enviar_email.php on line 58

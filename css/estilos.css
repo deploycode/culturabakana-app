@@ -1,0 +1,466 @@
+﻿*{
+	margin:0;
+	padding:0;
+	font-family:Calibri;
+	font-size: 15px;
+}
+
+body
+{
+	background-image:url("../fondo.jpg");
+ 	
+
+}
+
+a
+{
+	text-decoration:none;
+}
+
+header
+{
+	margin: auto;
+	text-align: center;
+}
+form{
+	margin: auto;
+
+}
+label{
+	color: gray;
+}
+/*----------------------------------------------------------------*/
+
+select#ciudad
+{
+	padding: 1em;
+}
+
+input#buscador_txt
+{
+	width: 400px;
+}
+
+input#buscador_btn
+{
+	margin-left: -1em;
+}
+.derecha{
+	text-align: right;
+}
+.izquierda{
+	text-align: left;
+	color: gray;
+}
+.mediano{
+	/*border: solid;*/
+	margin: auto;
+	width: 45%;
+	display: inline-table;
+	vertical-align: top;
+	}
+/*-------------------------------------------------*/
+nav
+{
+	
+	background:#FFFF00;
+	line-height: 40px;
+	width: 80%;
+	margin: auto;
+	display: inline-block;
+	-webkit-box-shadow: -1px 3px 34px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 3px 34px 0px rgba(0,0,0,0.75);
+   	box-shadow: -1px 3px 34px 0px rgba(0,0,0,0.75);
+}
+ul , ol {
+	list-style: none;
+	text-decoration: none;
+}
+
+.submenu li a:hover{
+	background-color: #0072c6;
+	color: #fff;
+		-ms-transition: all 0.5s ease-in;
+	-moz-transition: all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+	-webkit-transition: all 0.5s ease-in;
+	transition: all 0.5s ease-in;
+}
+.submenu li a{
+
+	color: #212121;
+	text-decoration: none;
+	padding: 2px 15px;
+	display: block;
+}
+.submenu > li {
+float: left;
+}
+
+.submenu  li ul {
+display: none;
+position:absolute;
+z-index:1;
+min-width: 140px;
+
+}
+.submenu  li:hover > ul{
+display:block;
+background-color:#FFFF00 ;
+
+
+}
+
+/*---------------------------------------------------
+nav#menu{
+	background-color:#FFFF00 ;
+	display: list-item;
+	line-height: 40px;
+	margin-top: 0px;
+
+}
+nav#menu ul li{
+	display: inline-block;
+
+}
+nav#menu a{
+	color:#000;
+	margin:-0.15em;
+	padding: 0.50em;
+	border-left: 1px solid #d6d6d6;
+	-ms-transition: all 0.5s ease-in;
+	-moz-transition: all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+	-webkit-transition: all 0.5s ease-in;
+	transition: all 0.5s ease-in;
+}
+nav#menu a:hover{
+   
+	background:#FFA500;
+	color:#fff;
+	-ms-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;f
+	-webkit-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
+}
+/*-----------------------------------------------------------------------------*/
+nav#redes{
+	background-color:  yellow;
+	float: right;
+	display: inline-block;
+	line-height: 0px;
+	margin-right: 2em;
+}
+
+nav#redes ul li{
+	display: inline-block;
+
+
+}
+
+}
+nav#redes a{
+	color:#000;
+	-ms-transition: all 0.5s ease-in;
+	-moz-transition: all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+	-webkit-transition: all 0.5s ease-in;
+	transition: all 0.5s ease-in;
+}
+nav#redes img{
+	width: 40px;
+	height: 40px;
+}
+nav#redes img:hover{
+    
+	background:#0072c6;
+	color:#fff;
+	-ms-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;f
+	-webkit-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
+}
+/*----------------------------------------------/*/
+ header h1{
+	font-size:60px;
+	margin-left: 0.5em;
+}
+div#direccion_lbl{
+	margin-right: 70%;
+	display: inline-block;
+}
+
+section#contenedor{
+	text-align: center;
+	background-color: yellow;
+	margin: 0 auto 1em auto;
+	padding:2em;
+	max-width: 100%;
+	-webkit-box-shadow: -1px 3px 34px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 3px 34px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 3px 34px 0px rgba(0,0,0,0.75);
+
+}
+section#principal{
+	background:#FFFF00;
+	text-align: center;
+	display: inline-block;
+	margin: 0.25em auto;
+	padding:0.25em;
+	vertical-align:top;
+	width:67%;
+	height: auto;
+	padding:2em;
+	-webkit-box-shadow: -1px 3px 34px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 3px 34px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 3px 34px 0px rgba(0,0,0,0.75);
+}
+aside#directorio{
+	vertical-align:top;
+	background:#FFFF00;
+	display: inline-block;
+	margin: 0.25em auto;
+	max-width: 50%;
+	min-height:200px;
+	text-align:left;
+	width:300px;
+	padding:1em;
+	-webkit-box-shadow: -1px 3px 34px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 3px 34px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 3px 34px 0px rgba(0,0,0,0.75);
+
+}
+textarea{
+	margin: 0;
+	padding: 1em;
+	resize: none;
+	border: none;
+	width: 100%;
+	height: 200px;
+	color: gray;
+
+}
+table{
+	-webkit-box-shadow: -1px 3px 34px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 3px 34px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 3px 34px 0px rgba(0,0,0,0.75);
+}
+table td{
+	padding: 0.5em;
+}
+
+
+/*Vamos a definir un ancho para el acordeón y lo centraremos:
+CSS */
+
+.ac-container{
+    width: 300px;
+    margin: 10px auto 30px auto;
+}
+
+
+/*A continuación, vamos a hacer que las etiquetas se vean como botones seleccionables por darles un poco de gradiente de fondo liso.
+Con caja de sombras múltiples, vamos a crear un borde sutil y un efecto de inserción. También vamos a establecer el z-index a 20,
+para asegurarse de que estará en la parte superior de la sección del contenido. */
+
+.ac-container label{
+    padding: 5px 20px;
+    position: relative;
+    z-index: 20;
+    display: block;
+    height: 30px;
+    cursor: pointer;
+    color: #212121;
+    text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
+    line-height: 33px;
+    background: linear-gradient(top, #ffffff 1%,#708090 100%);
+    box-shadow:
+        0px 0px 0px 1px rgba(155,155,155,0.3),
+        1px 0px 0px 0px rgba(255,255,255,0.9) inset,
+        0px 2px 2px rgba(0,0,0,0.1);
+}
+
+/* Al posar el puntero cambiamos el color de fondo */
+.ac-container label:hover{
+    background: #0072c6;
+    color:#FFF;
+}
+
+/*Cuando hacemos clic en una etiqueta, la casilla de verificación se ha comprobado y cuando eso ocurre queremos que la etiqueta
+correspondiente el siguiente "seleccionado" de estilo */
+
+.ac-container input:checked + label,
+.ac-container input:checked + label:hover{
+    background: #0072c6;
+    color: #FFF;
+    text-shadow: 0px 1px 1px rgba(255,255,255, 0.6);
+    box-shadow:
+        0px 0px 0px 1px rgba(155,155,155,0.3),
+        0px 2px 2px rgba(0,0,0,0.1);
+}
+
+/*Vamos a añadir un icono de la flecha pequeña en vuelo estacionario. Por que simplemente vamos a usar la pseudo-clase "after": */
+
+.ac-container label:hover:after,
+.ac-container input:checked + label:hover:after{
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    right: 13px;
+    top: 7px;
+    background: transparent url(../img/arrow_down.png) no-repeat center center;
+}
+
+/*Para el "seleccionado" el tema, queremos mostrar la flecha que apunta hacia arriba: */
+
+.ac-container input:checked + label:hover:after{
+    background-image: url(../img/arrow_up.png);
+}
+
+/*Y como no queremos que los input se vean, vamos a ocultarlos: */
+
+.ac-container input{
+    display: none;
+}
+
+/*El área de contenido tendrá una altura inicial de 0px y cualquier desbordamiento se ocultará.
+Vamos a añadir una transición de la altura y la sombra de la caja. La transición que estamos añadiendo aquí actuará a partir de "cerrar" el tema.
+ Nosotros definimos otra transición para el elemento seleccionado. Así que, básicamente, pueden controlar los dos comportamientos por hacer esto.
+  Como puedes ver, vamos a hacer el cierre un poco más rápido que la abertura. */
+
+.ac-container article{
+    background: rgba(255, 255, 255, 0.5);
+    margin-top: -1px;
+    overflow: hidden;
+    height: 0px;
+    position: relative;
+    z-index: 10;
+    transition:
+        height 1s ease-in-out,
+        box-shadow 0.6s linear;
+}
+.ac-container input:checked ~ article{
+    transition:
+        height 1s ease-in-out,
+        box-shadow 0.1s linear;
+    box-shadow: 0px 0px 0px 1px rgba(155,155,155,0.3);
+}
+
+/*Vamos a darle un poco de estilo al contenido */
+
+.ac-container article p{
+    font-style: italic;
+    color: #777;
+    line-height: 23px;
+    font-size: 14px;
+    padding: 20px;
+    text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
+}
+
+/*Ahora se definen las tres clases de las diferentes alturas. Estas son las alturas para el contenido de un artículo. */
+.ac-container input:checked ~ article.ac-uno{
+    height: auto;
+}
+.ac-container input:checked ~ article.ac-tres{
+    height: auto;
+}
+.ac-container input:checked ~ article.ac-small{
+    height: auto;
+}
+.ac-container input:checked ~ article.ac-medium{
+    height: auto;
+}
+.ac-container input:checked ~ article.ac-large{
+    height: auto;
+}
+.ac-container input:checked ~ article.ac-quince{
+    height: auto;
+}
+
+/*"auto" de altura, por supuesto, seria mejor opción aquí, pero ya que no podemos animar, tenemos que establecer unas alturas para la transición. */
+
+.ul-ac{
+	margin-top: 0.25em;
+	font-family: calibri;
+
+}
+
+.ul-ac a{
+	color:  #0072c6;
+	border: 1px solid #d6d6d6;
+	padding: 0.25em;
+	display: block;
+	-ms-transition: all 1s ease-in;
+	-moz-transition: all 1s ease-in;
+	-o-transition: all 1s ease-in;
+	-webkit-transition: all 1s ease-in;
+	transition: all 1s ease-in;
+}
+.ul-ac a:hover{
+	padding: 0.50em;
+	color:  #fff;
+	background-color:  #0072c6;
+	-ms-transition: all 0.25s ease-out;
+	-moz-transition: all 0.25s ease-out;
+	-o-transition: all 0.25s ease-out;
+	-webkit-transition: all 0.25s ease-out;
+	transition: all 0.25s ease-out;
+}
+.caja{
+	padding: 0.5em;
+	width: 100%;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+.boton{
+	color: black;
+	background-color: #d1d1d1;
+	width: 100px;
+	margin: 0.5em;
+	padding: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+.select{
+	width: 100%;
+	padding: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+aside#publicidad{
+	vertical-align:top;
+	background:#f4f4f4;
+	border-radius: 0.5em;
+	display: inline-block;
+	margin: 0.25em auto;
+	padding:1em;
+	width:250px;
+	height: 350px;
+}
+aside#publicidad img{
+	width:100%;
+	height: 100%;
+}
+article#galeria-incio{
+    background:#f4f4f4;
+	border-radius: 0.5em;
+	margin: 0.5em;
+	padding: 0.5em;
+	text-align: left;
+	height: auto;
+	width: 100%;
+}
+footer{
+	width:100%;
+	background-color: #FFFF00;
+	color: black;
+	padding-top:4em;
+	padding-bottom: 4em;
+	font: 5px Verdana;
+	text-align:center;
+	margin: auto;
+}
